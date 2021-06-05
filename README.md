@@ -1,2 +1,2 @@
 # gh-pages
-Setup for pages
+Markdown and Styling for pushed webpages
