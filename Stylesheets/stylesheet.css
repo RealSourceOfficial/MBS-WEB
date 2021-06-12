@@ -1,0 +1,114 @@
+.container_properties {
+  background-image: url(../Images/animation1_frame_trim.gif);
+  z-index: 0;
+  opacity: 0.3;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url(../Images/frame5.png);
+  z-index: -1;
+  opacity: 1;
+  font-family: monospace;
+  color: white;
+}
+.content {
+  z-index: 1;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+.login {
+  border: 3px solid black;
+  z-index: 3;
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  top: 5%;
+  bottom: auto;
+  margin: auto;
+  text-align: center;
+  width: 24%;
+  height: 45%;
+  align-items: center;
+  align-self: center;
+  border-radius: 25px;
+  background-image: url(../Images/LoginBackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.loginSmallBorder {
+  border: 6px solid orange;
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  top: 4.7%;
+  bottom: auto;
+  margin: auto;
+  text-align: center;
+  width: 24%;
+  height: 45%;
+  align-items: center;
+  align-self: center;
+  border-radius: 25px;
+  z-index: 2;
+}
+h1 {
+  z-index: 5;
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  top: inherit;
+  bottom: auto;
+}
+input {
+  z-index: 5;
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  top: 20%;
+  bottom: auto;
+  width: 50%;
+  height: 4%;
+  color: lightgrey;
+  font-family: inherit;
+}
+.textBackground {
+  border-radius: 25px;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 5%;
+  bottom: 5%;
+  width: 70%;
+  height: 90%;
+  z-index: 4;
+  display: block;
+  margin: auto;
+  background-color: #404040;
+}
+@content only screen and (max-width: 600px) {
+  .login {
+    
+  }
+  .loginSmallBorder {
+
+  }
+  .textBackground {
+
+  }
+  h1 {
+
+  }
+  input {
+
+  }
+}
