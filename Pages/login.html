@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <!-- Metadata -->
     <meta charset="utf-8">
     <meta name="robots" content="noindex">
@@ -9,23 +10,26 @@
     <!-- Page info -->
     <title>MBS Login Page</title>
     <!-- Imports -->
-    <link rel="stylesheet" href="../Stylesheets/stylesheet.css">
-    <script type="text/javascript" src="../Scripts/onload.js"></script>
-  </head>
-  <body>
+    <link rel="stylesheet" href="../Stylesheets/loginstylesheet.css">
+</head>
+
+<body>
     <div class="container_properties"></div>
     <div class="content">
-      <div class="login">
-        <p>Username</p><br>
-        <input type="text" id="Username" value=""><br>
-        <p>Password</p><br>
-        <input type="text" id="Password" value=""><br><br>
-        <input type="button" id="Submit" value="Login">
-        <a href="null" target="_blank" id="signupLink">Sign Up</a>
-        <div class="textBackground"></div>
-      </div>
-      <div class="loginSmallBorder"></div>
+        <div class="login">
+            <p id="ErrorHandler">Your password and/or username is incorrect</p>
+            <p id="USRPSW">Username</p><br>
+            <input type="text" id="Username" value=""><br>
+            <p id="USRPSW">Password</p><br>
+            <input type="text" id="Password" value=""><br><br>
+            <input type="button" id="Submit" value="Login">
+            <script type="text/javascript" src="../Scripts/LoginButton.js"></script>
+            <a href="null" target="_blank" id="signupLink">Sign Up</a>
+            <div class="textBackground"></div>
+        </div>
+        <div class="loginSmallBorder"></div>
     </div>
     <!-- Scripts -->
-  </body>
+</body>
+
 </html>
