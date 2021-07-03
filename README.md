@@ -1,11 +1,16 @@
 # WEBPAGE
-  Details: This is the source code of T3CHBUILDER's webpage.  
+  Details: This is the source code of Machine Building Simulator's webpage.  
   Current status: In Development  
   ETA: Unknown  
 # GAME (RELEASE)
-  Details: The actual game  
-  Current status: Idea  
+  Details: Source code for the game "Machine Building Simulator"
+  Current status: Project  
   ETA: Unknown  
-  Engine: Unity  
+  Engine: Unity/Unreal
+  Platform: PC
+  Publishing Software: Steam
+  Licensing: TBD
 # CURRENT INFO
-is not ready for web push yet. Game is not developed, and this page doesnt do anything for now
+This is not ready for web push yet. Reasons:
+  Game development is NOT complete
+  Web development is NOT complete
