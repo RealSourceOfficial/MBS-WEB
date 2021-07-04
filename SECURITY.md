@@ -37,6 +37,6 @@ For example:
 ```html
 <meta name="security-content-policy" content="default-srce 'self'">
 ```
-127.0.0.1 points to localhost, so it can be described by anthing on the user's computer, but 'self' points to local storage which is write-protected.
+127.0.0.1 points to localhost, so it can be described by anything on the user's computer, but 'self' points to local storage which is write-protected.
 
 (I think so, I don't know that much about security, but this is an example)
