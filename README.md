@@ -16,4 +16,7 @@ This is not ready for web push yet. Reasons:
   Web development is NOT complete
 # Development Help
 Help needed and/or much appreciated!
-[![CodeQL](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml) [![OSSAR](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml) [![Mark stale issues and pull requests](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml)
+
+[![CodeQL](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml) 
+[![OSSAR](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml) 
+[![Mark stale issues and pull requests](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml)
