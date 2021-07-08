@@ -3,20 +3,111 @@
   Current status: In Development  
   ETA: Unknown  
 # GAME (RELEASE)
-  Details: Source code for the game "Machine Building Simulator"
-  Current status: Project  
+  Details: Source code for the game "Machine Building Simulator"  
+	Current status: Project  
   ETA: Unknown  
-  Engine: Unity/Unreal
-  Platform: PC
-  Publishing Software: Steam
-  Licensing: TBD
+  Engine: Unity/Unreal  
+  Platform: PC  
+  Publishing Software: Steam  
+  Licensing: TBD  
 # CURRENT INFO
-This is not ready for web push yet. Reasons:
-  Game development is NOT complete
+  This is not ready for web push yet. Reasons:  
+  Game development is NOT complete  
   Web development is NOT complete
 # Development Help
-Help needed and/or much appreciated!
+Help needed and/or much appreciated!  
+Current project:
 
-[![CodeQL](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml) 
-[![OSSAR](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml) 
-[![Mark stale issues and pull requests](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml)
+[![CodeQL](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml)   
+[![OSSAR](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml)   
+[![Mark stale issues and pull requests](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml)  
+*(**See:** [Issue #6](https://github.com/RealSourceOfficial/MBS-WEB/issues/6))*
+
+# Code Status
+## Login Page
+### CSS
+
+Item | Status
+------------ | -------------
+RWS | Finished
+Imports | Not Started
+Font | Finished
+
+### HTML
+
+Item | Status
+------------ | -------------
+Security | Finished, Up to date
+Content | Finished
+Refrencing | In Progress
+
+### JS
+
+Item | Status
+------------ | -------------
+Security | In Progress\*
+Content  | Finished 
+
+### JSON
+
+Item | Status
+------------ | -------------
+Read | In Progress\*
+Verification | In Progress\*
+
+## Signup Page
+### CSS
+
+Item | Status
+------------ | -------------
+RWS | Not Started
+Imports | Not Started
+Fonts | Not Started
+
+### HTML
+
+Item | Status
+------------ | -------------
+Security | Not Started
+Content | Not Started
+Refrencing | Not Started
+
+### JS
+
+Item | Status
+------------ | -------------
+Security | Not Started
+Content  | Not Started
+
+### JSON
+
+Item | Status
+------------ | -------------
+Write | Not Started
+Verification | Not Started
+
+## Home Page
+### CSS
+
+Item | Status
+------------ | -------------
+RWS | Not Started
+Imports | Not Started
+Font | Not Started
+
+### HTML
+
+Item | Status
+------------ | -------------
+Security | Not Started
+Content | Not Started
+Refrencing | Not Started
+
+### JS
+
+Item | Status
+------------ | -------------
+Security | Not Started
+Content  | Not Started
+
+\* Help Needed
