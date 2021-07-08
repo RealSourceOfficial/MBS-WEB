@@ -18,10 +18,7 @@
 Help needed and/or much appreciated!  
 Current project:
 
-[![CodeQL](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/codeql-analysis.yml)   
-[![OSSAR](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/ossar-analysis.yml)   
-[![Mark stale issues and pull requests](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml/badge.svg)](https://github.com/RealSourceOfficial/MBS-WEB/actions/workflows/stale.yml)  
-*(**See:** [Issue #6](https://github.com/RealSourceOfficial/MBS-WEB/issues/6))*
+N/A
 
 # Code Status
 ## Login Page
