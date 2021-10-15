@@ -127,7 +127,7 @@ a {
   align-self: center;
   top: 2%;
   color: red;
-  visibility: default;
+  visibility: hidden;
   text-shadow: 1px 1px black;
   font-size: 9px;
   margin: 30px;
