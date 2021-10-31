@@ -10,10 +10,20 @@
     <title>MBS Login Page</title>
     <!-- Imports -->
     <link rel="stylesheet" href="../Stylesheets/pagestylesheet.css">
-    <script type="text/javascript" src="../Scripts/onload.js"></script>
+    <!-- Server Side -->
 </head>
 
 <body>
+    <?php 
+    $fromLoginPage = "Login Page";
+    // $from = "";
+    $tStatus.old = $_SESSION["tStatus"];
+    function fromWhere($fromLoginPage, $tStatus.old) {
+        if (strpos($tStatus.old, $fromLoginPage) !== false) return true;
+        // elseif (strpos($tStatus.old, $from) !== false) return true;
+    else return false;
+    } ?>
+
     <!-- POGCHAMP STUFF COMING SOON-->
     <!-- Scripts -->
 </body>

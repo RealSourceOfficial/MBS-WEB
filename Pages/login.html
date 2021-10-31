@@ -11,12 +11,21 @@
     <title>MBS Login Page</title>
     <!-- Imports -->
     <link rel="stylesheet" href="../Stylesheets/loginstylesheet.css">
+    <script type="text/javascript" src="../Scripts/onload.js"></script>
+    <!-- Server Side -->
+    <?php 
+    session_start();
+    ?>
 </head>
 
-<body>
+<body class="noScroll">
+    <?php 
+    $_SESSION["tStat"] = "Active - Login Page";
+    ?>
     <div class="container_properties"></div>
     <div class="content">
         <div class="login">
+            <h1>Log into your SI Account</h1>
             <p id="ErrorHandler">Your password and/or username is incorrect</p>
             <p id="USRPSW">Username</p><br>
             <input type="text" id="Username" value=""><br>
@@ -29,6 +38,10 @@
         </div>
         <div class="loginSmallBorder"></div>
     </div>
+    <footer class="legal">
+        <p class="license">This web page is licensed under AGPL 3.0. More information <a id="agplLink" href="../Licensing/agpl3.txt" target="_blank">Here</a></p>
+        <p class="license">The images "AnimatedBackground" and "StaticBackground" were authored by SourceOfficial under a CC0 license. More information <a id="agplLink" href="../Licensing/cc0.txt" target="_blank">Here</a></p>
+    </footer>
     <!-- Scripts -->
 </body>
 
