@@ -1,5 +1,5 @@
 .container_properties {
-    background-image: url(../Images/animation1_frame_trim.gif);
+    background-image: url("../Images/AnimatedBackground.gif");
     z-index: 0;
     opacity: 0.3;
     position: absolute;
@@ -12,12 +12,21 @@
 }
 
 body {
-    background-image: url(../Images/frame5.png);
+    background-image: url("../Images/StaticBackground.png");
     z-index: -1;
     opacity: 1;
     font-family: monospace;
     color: white;
     font-size: medium;
+}
+
+.noScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.noScroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .content {
@@ -32,8 +41,7 @@ body {
 .login {
     align-items: center;
     align-self: center;
-    border-radius: 25px;
-    background-image: url(../Images/LoginBackground.png);
+    background-color: #292929;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -42,29 +50,12 @@ body {
     text-align: center;
     position: absolute;
     z-index: 3;
-    border: 2px solid black;
     right: 15%;
     left: 15%;
     top: 5%;
     width: 30%;
-    height: 34.8%;
-}
-
-.loginSmallBorder {
-    width: 30%;
-    height: 34.91%;
-    border: 4px solid orange;
-    right: 15%;
-    left: 15%;
-    top: 4.7%;
-    align-items: center;
-    align-self: center;
-    border-radius: 25px;
-    z-index: 2;
-    bottom: auto;
-    margin: auto;
-    text-align: center;
-    position: absolute;
+    height: 400px;
+    box-shadow: solid black -5px -5px;
 }
 
 input,
@@ -79,35 +70,28 @@ p {
 
 input[type="button"] {
     color: black;
+    font-size: 10px;
     background-color: orange;
     border: 0px solid black;
     left: 27%;
+    top: 0% !important;
     width: 48px;
-}
-
-.textBackground {
-    border-radius: 25px;
-    position: absolute;
-    z-index: 4;
-    display: block;
-    margin: auto;
-    background-color: #606060;
 }
 
 #USRPSW {
     margin: auto;
-    top: 21%;
+    top: -2.5%;
     right: 19%;
 }
 
 a {
     right: 27%;
-    color: blue;
+    color: lightgrey;
 }
 
 input,
-a {
-    top: 20%;
+a :not(.agplLink) {
+    top: -5%;
     width: 50%;
     height: 6%;
 }
@@ -118,29 +102,68 @@ a {
     top: 5%;
     bottom: 5%;
     width: 80%;
-    height: 90%;
+    height: 200px;
 }
 
 #ErrorHandler {
     align-self: center;
-    top: 15%;
+    top: 2%;
     color: red;
     visibility: hidden;
     text-shadow: 1px 1px black;
+    font-size: 9px;
+    margin: 30px;
+}
+
+#agplLink {
+    right: 0%;
+}
+
+.legal {
+    line-height: 2px;
+    font: 10px;
 }
 
 input[type="text"] {
     color: black;
 }
 
+footer {
+    position: absolute;
+    display: block;
+    top: 100%;
+}
+
 @media only screen and (max-width: 992px) {
     .login {
-        border: 2px solid black;
         width: 63.8%;
-        height: 34.8%;
+        height: 400px;
     }
-    .loginSmallBorder {
-        width: 64%;
-        height: 35%;
+}
+
+@media only screen and (max-width: 320px) {
+    .login {
+        width: 80%;
+        right: 10%;
+        left: 10%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .login {
+        width: 90%;
+        right: 5%;
+        left: 5%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .login {
+        width: 100%;
+        right: 0%;
+        left: 0%;
+        height: 400px;
     }
 }
