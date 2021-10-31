@@ -1,5 +1,5 @@
 .container_properties {
-    background-image: url("../Images/animation1_frame_trim.gif");
+    background-image: url("../Images/AnimatedBackground.gif");
     z-index: 0;
     opacity: 0.3;
     position: absolute;
@@ -12,12 +12,21 @@
 }
 
 body {
-    background-image: url("../Images/frame5.png");
+    background-image: url("../Images/StaticBackground.png");
     z-index: -1;
     opacity: 1;
     font-family: monospace;
     color: white;
     font-size: medium;
+}
+
+.noScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.noScroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .content {
@@ -65,7 +74,7 @@ input[type="button"] {
     background-color: orange;
     border: 0px solid black;
     left: 27%;
-    top: -5%;
+    top: 0% !important;
     width: 48px;
 }
 
@@ -77,11 +86,11 @@ input[type="button"] {
 
 a {
     right: 27%;
-    color: blue;
+    color: lightgrey;
 }
 
 input,
-a {
+a :not(.agplLink) {
     top: -5%;
     width: 50%;
     height: 6%;
@@ -106,8 +115,23 @@ a {
     margin: 30px;
 }
 
+#agplLink {
+    right: 0%;
+}
+
+.legal {
+    line-height: 2px;
+    font: 10px;
+}
+
 input[type="text"] {
     color: black;
+}
+
+footer {
+    position: absolute;
+    display: block;
+    top: 100%;
 }
 
 @media only screen and (max-width: 992px) {
