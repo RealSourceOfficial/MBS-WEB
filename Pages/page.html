@@ -10,7 +10,19 @@
     <title>MBS Login Page</title>
     <!-- Imports -->
     <link rel="stylesheet" href="../Stylesheets/pagestylesheet.css">
-    <!-- Server Side -->
+    <!-- Analytics -->
+    <?php session_start(); ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2TK0ERV8PW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2TK0ERV8PW');
+    </script>
 </head>
 
 <body>
