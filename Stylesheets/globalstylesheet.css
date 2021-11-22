@@ -38,6 +38,18 @@ body {
     bottom: 0px;
 }
 
+.about-game {
+    z-index: 1;
+    align-self: center;
+    margin: 5%;
+    height: 90%;
+    background-color: #292929;
+}
+
+.about-game :is(h1) {
+    text-align: center;
+}
+
 .login {
     align-items: center;
     align-self: center;

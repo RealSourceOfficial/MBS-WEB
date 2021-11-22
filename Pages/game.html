@@ -9,23 +9,14 @@
     <!-- Page info -->
     <title>MBS Login Page</title>
     <!-- Imports -->
-    <link rel="stylesheet" href="../Stylesheets/pagestylesheet.css">
+    <link rel="stylesheet" href="../Stylesheets/globalstylesheet.css">
     <!-- Analytics -->
     <?php session_start(); ?>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2TK0ERV8PW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-2TK0ERV8PW');
-    </script>
+    <script rel="script" href="../Scripts/onload.js"></script>
 </head>
 
-<body>
+<body class="noScroll">
     <?php 
     $fromLoginPage = "Login Page";
     // $from = "";
@@ -35,8 +26,16 @@
         // elseif (strpos($tStatus.old, $from) !== false) return true;
     else return false;
     } ?>
+    <div class="about-game">
+        <h1>Machine Building Simulator</h1>
+        <div class="game-download">
 
-    <!-- POGCHAMP STUFF COMING SOON-->
+        </div>
+    </div>
+    <footer class="legal">
+        <h6 class="license">This web page is licensed under AGPL 3.0. More information <a id="agplLink" href="../Licensing/agpl3.txt" target="_blank">Here</a></p>
+            <h6 class="license">The images "AnimatedBackground" and "StaticBackground" were authored by SourceOfficial under a CC0 license. More information <a id="agplLink" href="../Licensing/cc0.txt" target="_blank">Here</a></p>
+    </footer>
     <!-- Scripts -->
 </body>
 
