@@ -42,11 +42,41 @@ body {
     z-index: 1;
     align-self: center;
     margin: 5%;
+    margin-left: 25%;
     height: 90%;
     background-color: #292929;
 }
 
+.about-game :is(p) {
+    margin: 2%;
+}
+
+.about-game :is(p) {
+    line-height: 12px;
+}
+
+.sidebar :is(p) {
+    text-indent: 10px;
+}
+
+.sidebar {
+    z-index: 1;
+    position: absolute;
+    margin: 2.5%;
+    margin-right: 77.5%;
+    background-color: #292929;
+    height: 90%;
+    width: 20%;
+    top: 3.1%;
+    float: left;
+}
+
 .about-game :is(h1) {
+    line-height: 50px;
+    text-align: center;
+}
+
+.sidebar :is(h2) {
     text-align: center;
 }
 
@@ -80,6 +110,10 @@ p {
     color: white;
 }
 
+input[type="password"] {
+    color: black;
+}
+
 input[type="button"] {
     color: black;
     font-size: 10px;
@@ -96,7 +130,11 @@ input[type="button"] {
     right: 19%;
 }
 
-a {
+#signupLink {
+    right: 27%;
+}
+
+a :not(.navbar) {
     right: 27%;
     color: lightgrey;
 }
