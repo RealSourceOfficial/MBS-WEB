@@ -6,10 +6,10 @@
   Details: Source code for the game "Machine Building Simulator"  
 	Current status: Project  
   ETA: Unknown  
-  Engine: Unity/Unreal  
-  Platform: PC  
+  Engine: TBD
+  Platform: Depends (Engine)  
   Publishing Software: Steam  
-  Licensing: TBD  
+  Licensing: TBD (Most likely Closed-Source)
 # CURRENT INFO
   This is not ready for web push yet. Reasons:  
   Game development is NOT complete  
@@ -22,89 +22,10 @@ N/A
 
 # Code Status
 ## Login Page
-### CSS
-
-Item | Status
------------- | -------------
-RWS | Finished
-Imports | Not Started
-Font | Finished
-
-### HTML
-
-Item | Status
------------- | -------------
-Security | Finished, Up to date
-Content | Finished
-Refrencing | In Progress
-
-### JS
-
-Item | Status
------------- | -------------
-Security | In Progress\*
-Content  | Finished 
-
-### JSON
-
-Item | Status
------------- | -------------
-Read | In Progress\*
-Verification | In Progress\*
+Finished?
 
 ## Signup Page
-### CSS
-
-Item | Status
------------- | -------------
-RWS | Not Started
-Imports | Not Started
-Fonts | Not Started
-
-### HTML
-
-Item | Status
------------- | -------------
-Security | Not Started
-Content | Not Started
-Refrencing | Not Started
-
-### JS
-
-Item | Status
------------- | -------------
-Security | Not Started
-Content  | Not Started
-
-### JSON
-
-Item | Status
------------- | -------------
-Write | Not Started
-Verification | Not Started
+---WIP---
 
 ## Home Page
-### CSS
-
-Item | Status
------------- | -------------
-RWS | Not Started
-Imports | Not Started
-Font | Not Started
-
-### HTML
-
-Item | Status
------------- | -------------
-Security | Not Started
-Content | Not Started
-Refrencing | Not Started
-
-### JS
-
-Item | Status
------------- | -------------
-Security | Not Started
-Content  | Not Started
-
-\* Help Needed
+---WIP---
